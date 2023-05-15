@@ -21,3 +21,14 @@ top: -71px;
 
 background: #FFFFFF;
 }
+
+.icone {
+    position: absolute;
+width: 161.7px;
+height: 89.51px;
+left: 14.44px;
+top: 8.66px;
+
+background: url(Dojo_Kenjutsu.png);
+filter: drop-shadow(0px 3.85009px 6.73765px rgba(0, 0, 0, 0.25));
+}
