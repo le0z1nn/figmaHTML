@@ -23,6 +23,16 @@ background: #FF0800;
 .partesuperior {
     background-color: #FF0800;
     display:block;
-    ;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
     
 }
+
+.partesuperior a {
+    text-decoration: none;
+
+}
+
+
+
