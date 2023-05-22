@@ -12,11 +12,7 @@ background: #FF0800;
     margin: 0;
     border: 0;
 }
- img{
-    width: 125px;
-    height: auto;
-    
-}
+
 .logo {
     border-radius:60% ;
 }
@@ -26,19 +22,156 @@ background: #FF0800;
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     justify-content: space-between;
+    height: 100px;
     
 }
 
 .partesuperior a {
     text-decoration: none;
+    color: white;
+    align-self: center;
+    font-size: 24px;
+    margin-right: 40px;
 
 }
 
 .content {
-    display: inline;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.content h2 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 100px 0 100px 100px;
 }
 
 .imagen {
     height: auto;
-    width: 124px;
+    width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.mensagem {
+    flex-direction: column;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    right: 15%;
+    top: 150px;
+    font-size: 30px;
+    text-align: right;
+    height: 800px;
+    width: 800px;
+    place-content: center;
+    box-shadow: 1px 1px 100px rgba(255, 255, 255, 0.11);
+}
+
+.mensagem p {
+    margin-right: 60px;
+}
+
+.nossos-espacos {
+    width: 100%;
+}
+
+.sections {
+    display: flex;
+    width: 100%;
+}
+
+.sections img {
+    width: 80%;
+    margin: 100px 0 100px 10%;
+}
+
+.section-left {
+    width: 50%;
+}
+
+.text-left {
+    background-color: lightgray;
+    border-radius: 0 10px 10px 0;
+    font-size: 26px;
+    line-height: 50px;
+    padding: 10px 0 10px 80px;
+}
+
+.section-right {
+    width: 50%;
+}
+
+.text-right {
+    background-color: lightgray;
+    border-radius: 10px 0 0 10px;
+    font-size: 26px;
+    line-height: 50px;
+    padding: 10px 80px 10px 30px;
+}
+
+.projetos-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos-textos {
+    display: flex;
+}
+
+.projetos-textos p {
+    width: 35%;
+    padding: 20px 80px;
+    font-size: 28px;
+    line-height: 50px;
+    border-left: 2px solid black;
+    margin: 40px auto;
+}
+
+.projetos img {
+    width: 60%;
+}
+
+.quem-somos {
+    background-color: black;
+    color: white;
+}
+
+.quem-somos-content {
+    font-size: 26px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.quem-somos-content p {
+    width: 50%;
+    padding: 60px;
+    line-height: 60px;
+}
+
+.imagem-quem-somos {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.para-todos h2 {
+    text-align: center;
+}
+
+.para-todos-lista {
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.para-todos-lista li {
+    margin-left: 25%;
 }
